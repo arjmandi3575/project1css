@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+body {
+    width: 100%;
+    background-color: #0a0c1b;
+}
+
+body .all {
+    background-color: #1c1938;
+    width: 700px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+body .all .text {
+    width: 350px;
+    height: auto;
+}
+body .all .text .p {
+  color: white;
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+body .all .text .p span {
+    color: #a45ed0 ;
+    font-size: 1.5rem;
+}
+body .all .text p {  
+    margin: 1rem;
+    font-size: 1rem;
+    color: #85839b;
+}
+body .all .text ul {
+    margin-top: 3rem;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+body .all .text ul li label {
+    margin: 1rem;
+    font-size: 1rem;
+    color: #9693ae;
+}
+body .all .text ul li .number { 
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+body .all .image img {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 350px;
+    height: auto;
+}
+@media(max-width: 690px) {
+    
+  body .all {
+        background-color: #1c1938;
+        width: 200px;
+        height: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+        display: flex;
+        justify-content: center;
+    }
+    body .all .text {
+        text-align: center;  
+        width: 200px;
+        height: 300px;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+    body .all .text .p {
+    color: white;
+    font-size: 1rem;
+    margin: 1rem;
+    }
+    body .all .text .p span {
+    color: #a45ed0 ;
+    font-size: 1rem;
+    }
+    body .all .text p {  
+        margin: 1rem;
+        font-size: 0.5rem;
+        color: #85839b;
+    }
+    body .all .text ul {
+        margin-top: 1.5rem;
+        list-style: none;
+        flex-direction: column;
+    }
+    body .all .text ul li {
+        margin: 0.5rem;
+    }
+    body .all .text ul li label { 
+        margin: 0.5rem;
+        font-size: 0.5rem;
+        color: #9693ae;
+    }
+    body .all .text ul li .number {
+        margin: 1rem;
+        font-size: 0.75rem;
+        color: white;
+    }
+    
+    body .all .image img {
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 0;
+        width: 200px;
+        height: auto;
+    }
+}
